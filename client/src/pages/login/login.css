@@ -1,0 +1,60 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('https://thegardengranny.com/wp-content/uploads/2020/05/f-black-background.jpg');
+    background-size: cover;
+  
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label {
+     margin: 10px 0;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.loginButton:disabled{
+     cursor:not-allowed;
+     background-color: lightcoral ;
+}
+
+.loginRegisterButton{
+
+ position: absolute;
+ width: 100px;
+ top: 60px;
+ right: 20px;
+ background-color: teal;
+ cursor: pointer;
+ border: none;
+ color: white;
+ border-radius: 10px;
+ padding: 5px;
+}
